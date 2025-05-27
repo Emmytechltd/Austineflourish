@@ -132,8 +132,18 @@
     margin-right: 15px;
     font-weight: bold;
   }
+  .social-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers items horizontally */
+    margin: 40px 0;
+  }
   
-
+  .social-section h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+  }
   /* Social Media Icons */
 .social-links {
     display: flex;
